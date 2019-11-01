@@ -2,9 +2,10 @@
 
 one:
   name: MyString
-  type: 
+  project_type: MyString
   tools: MyString
   date: MyString
+  description: MyString
   project_link: MyString
   github_link: MyString
   header_img: MyString
@@ -12,9 +13,10 @@ one:
 
 two:
   name: MyString
-  type: 
+  project_type: MyString
   tools: MyString
   date: MyString
+  description: MyString
   project_link: MyString
   github_link: MyString
   header_img: MyString

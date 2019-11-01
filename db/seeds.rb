@@ -1,7 +1,5 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+# Destroy all previous Seeds
+Project.destroy_all
+
+# Create new Seeds
+Project.create(name: "Cryptochambr", type: "Ruby on Rails", tools: "Ruby, Ruby on Rails, CoinMarketCap API, Sketch, Particles.js", date: "2019", project_link:"https://cryptochambr.herokuapp.com/", github_link: "https://github.com/cchutis/crypto-app", header_img: "", screenshots: "")

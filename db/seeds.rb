@@ -13,7 +13,8 @@ Project.create(
     project_link:"https://cryptochambr.herokuapp.com/", 
     github_link: "https://github.com/cchutis/crypto-app", 
     header_img: "", 
-    screenshots: ""
+    screenshots: "",
+    background: "bkg/crypto-bkg.jpg"
 )
 # End Cryptochambr
 
@@ -27,7 +28,8 @@ Project.create(
     project_link:"", 
     github_link: "https://github.com/cchutis/Headspace-VR-App-Frontend", 
     header_img: "", 
-    screenshots: ""
+    screenshots: "",
+    background: ""
 )
 # End HeadspaceVR
 
@@ -41,7 +43,8 @@ Project.create(
     project_link:"", 
     github_link: "https://github.com/cchutis/recursive-frontend", 
     header_img: "", 
-    screenshots: ""
+    screenshots: "",
+    background: ""
 )
 # End Recursive
 
@@ -55,7 +58,8 @@ Project.create(
     project_link:"", 
     github_link: "https://github.com/cchutis/frontend-orbsOS", 
     header_img: "", 
-    screenshots: ""
+    screenshots: "",
+    background: ""
 )
 # End OrbsOS
 
@@ -70,7 +74,8 @@ Bio Recovery's website was built on a Wordpress platform utilizing animated elem
     project_link:"https://biorecovery.com/", 
     github_link: "", 
     header_img: "", 
-    screenshots: ""
+    screenshots: "",
+    background: ""
 )
 # End Bio Recovery
 
@@ -84,7 +89,8 @@ Project.create(
     project_link:"https://www.sq3d.com/", 
     github_link: "", 
     header_img: "", 
-    screenshots: ""
+    screenshots: "",
+    background: ""
 )
 # End S-Squared 3D Printers
 
@@ -98,7 +104,8 @@ Project.create(
     project_link:"", 
     github_link: "", 
     header_img: "", 
-    screenshots: ""
+    screenshots: "",
+    background: ""
 )
 # End Safeguard VR
 
@@ -112,6 +119,7 @@ Project.create(
     project_link:"", 
     github_link: "", 
     header_img: "", 
-    screenshots: ""
+    screenshots: "",
+    background: ""
 )
 # End Project Neptune VR

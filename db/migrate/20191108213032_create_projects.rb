@@ -10,6 +10,7 @@ class CreateProjects < ActiveRecord::Migration[5.2]
       t.string :github_link
       t.string :header_img
       t.string :screenshots
+      t.string :background
 
       t.timestamps
     end

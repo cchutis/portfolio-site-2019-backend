@@ -10,6 +10,7 @@ one:
   github_link: MyString
   header_img: MyString
   screenshots: MyString
+  background: MyString
 
 two:
   name: MyString
@@ -21,3 +22,4 @@ two:
   github_link: MyString
   header_img: MyString
   screenshots: MyString
+  background: MyString

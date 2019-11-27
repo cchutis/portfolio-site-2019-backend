@@ -11,6 +11,8 @@ class CreateProjects < ActiveRecord::Migration[5.2]
       t.string :header_img
       t.string :screenshots
       t.string :background
+      t.string :color
+      t.string :subtitle
 
       t.timestamps
     end

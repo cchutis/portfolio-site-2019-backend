@@ -11,6 +11,8 @@ one:
   header_img: MyString
   screenshots: MyString
   background: MyString
+  color: MyString
+  subtitle: MyString
 
 two:
   name: MyString
@@ -23,3 +25,5 @@ two:
   header_img: MyString
   screenshots: MyString
   background: MyString
+  color: MyString
+  subtitle: MyString

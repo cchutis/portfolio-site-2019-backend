@@ -16,7 +16,8 @@ Project.create(
     screenshots: "",
     background: "bkg/crypto-bkg.jpg",
     color: "green",
-    subtitle: "CRYPTOCHAMBR"
+    subtitle: "CRYPTOCHAMBR",
+    subtitle2: "RAILS-APP"
 )
 # End Cryptochambr
 
@@ -33,7 +34,8 @@ Project.create(
     screenshots: "",
     background: "",
     color: "dark blue",
-    subtitle: "HEADSPACE VR"
+    subtitle: "HEADSPACE",
+    subtitle2: "VR-APP"
 )
 # End HeadspaceVR
 
@@ -50,7 +52,8 @@ Project.create(
     screenshots: "",
     background: "",
     color: "purple",
-    subtitle: "RECURSIVE"
+    subtitle: "RECURSIVE",
+    subtitle2: "REACT-APP"
 )
 # End Recursive
 
@@ -67,7 +70,8 @@ Project.create(
     screenshots: "",
     background: "",
     color: "blue",
-    subtitle: "ORBS//OS"
+    subtitle: "ORBS//OS",
+    subtitle2: "ELECTRON-APP"
 )
 # End OrbsOS
 
@@ -77,15 +81,15 @@ Project.create(
     project_type: "Wordpress Design/Dev", 
     tools: "Wordpress, JavaScript, CSS, Photoshop, Illustrator, After Effects, Sketch", 
     date: "2018", 
-    description: "
-Bio Recovery's website was built on a Wordpress platform utilizing animated elements and custom CSS modern styling. A style guide was created and used for the company's branding.", 
+    description: "Bio Recovery's website was built on a Wordpress platform utilizing animated elements and custom CSS modern styling. A style guide was created and used for the company's branding.", 
     project_link:"https://biorecovery.com/", 
     github_link: "", 
     header_img: "", 
     screenshots: "",
     background: "",
     color: "green",
-    subtitle: "BIORECOVERY"
+    subtitle: "BIORECOVERY",
+    subtitle2: "WEBSITE"
 )
 # End Bio Recovery
 
@@ -102,7 +106,8 @@ Project.create(
     screenshots: "",
     background: "",
     color: "light green",
-    subtitle: "S-SQUARED3D"
+    subtitle: "S-SQUARED",
+    subtitle2: "ECOMMERCE"
 )
 # End S-Squared 3D Printers
 
@@ -119,7 +124,8 @@ Project.create(
     screenshots: "",
     background: "",
     color: "orange",
-    subtitle: "SAFEGUARDVR"
+    subtitle: "SAFEGUARD",
+    subtitle2: "VR-APP"
 )
 # End Safeguard VR
 
@@ -136,6 +142,7 @@ Project.create(
     screenshots: "",
     background: "",
     color: "grey",
-    subtitle: "PROJECTNEPTUNE"
+    subtitle: "PROJECTNEPTUNE",
+    subtitle2: "VR-APP"
 )
 # End Project Neptune VR

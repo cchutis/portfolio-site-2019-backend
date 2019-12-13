@@ -13,6 +13,7 @@ class CreateProjects < ActiveRecord::Migration[5.2]
       t.string :background
       t.string :color
       t.string :subtitle
+      t.string :subtitle2
 
       t.timestamps
     end

@@ -13,6 +13,7 @@ one:
   background: MyString
   color: MyString
   subtitle: MyString
+  subtitle2: MyString
 
 two:
   name: MyString
@@ -27,3 +28,4 @@ two:
   background: MyString
   color: MyString
   subtitle: MyString
+  subtitle2: MyString

@@ -12,7 +12,7 @@ class ProjectsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create project" do
     assert_difference('Project.count') do
-      post projects_url, params: { project: { background: @project.background, color: @project.color, date: @project.date, description: @project.description, github_link: @project.github_link, header_img: @project.header_img, name: @project.name, project_link: @project.project_link, project_type: @project.project_type, screenshots: @project.screenshots, subtitle: @project.subtitle, tools: @project.tools } }, as: :json
+      post projects_url, params: { project: { background: @project.background, color: @project.color, date: @project.date, description: @project.description, github_link: @project.github_link, header_img: @project.header_img, name: @project.name, project_link: @project.project_link, project_type: @project.project_type, screenshots: @project.screenshots, subtitle: @project.subtitle, subtitle2: @project.subtitle2, tools: @project.tools } }, as: :json
     end
 
     assert_response 201
@@ -24,7 +24,7 @@ class ProjectsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update project" do
-    patch project_url(@project), params: { project: { background: @project.background, color: @project.color, date: @project.date, description: @project.description, github_link: @project.github_link, header_img: @project.header_img, name: @project.name, project_link: @project.project_link, project_type: @project.project_type, screenshots: @project.screenshots, subtitle: @project.subtitle, tools: @project.tools } }, as: :json
+    patch project_url(@project), params: { project: { background: @project.background, color: @project.color, date: @project.date, description: @project.description, github_link: @project.github_link, header_img: @project.header_img, name: @project.name, project_link: @project.project_link, project_type: @project.project_type, screenshots: @project.screenshots, subtitle: @project.subtitle, subtitle2: @project.subtitle2, tools: @project.tools } }, as: :json
     assert_response 200
   end
 

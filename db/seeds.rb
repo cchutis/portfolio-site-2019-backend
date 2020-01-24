@@ -2,7 +2,7 @@
 Project.destroy_all
 
 # Create new Seeds
-
+Project.create(color: "blue", subtitle: "FRONTEND", subtitle2: "DEVELOPER", background: "bkg/texture.jpg")
 # Start Cryptochambr
 Project.create(
     name: "Cryptochambr", 
